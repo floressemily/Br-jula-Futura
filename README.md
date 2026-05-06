@@ -1,6 +1,6 @@
-# 🧭 Brújula Futura
+# Brujula Futura
 
-> Herramienta de orientación vocacional para estudiantes de bachillerato en Ecuador.
+> Herramienta de orientacion vocacional para estudiantes de bachillerato en Ecuador.
 
 [![Deploy](https://img.shields.io/badge/deploy-Vercel-black?logo=vercel)](https://vercel.com)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev)
@@ -9,15 +9,15 @@
 
 ---
 
-## 📖 Descripción
+## Descripcion
 
-**Brújula Futura** es una herramienta de orientación vocacional para estudiantes de bachillerato (15–18 años), especialmente de colegios Fe y Alegría en Ecuador. Su objetivo es ayudar a explorar intereses, conocer carreras tradicionales y emergentes, y revisar opciones universitarias reales, de forma más clara, visual y guiada.
+**Brujula Futura** es una herramienta de orientacion vocacional para estudiantes de bachillerato (15-18 anos), especialmente de colegios Fe y Alegria en Ecuador. Su objetivo es ayudar a explorar intereses, conocer carreras tradicionales y emergentes, y revisar opciones universitarias reales, de forma mas clara, visual y guiada.
 
-La hipótesis del proyecto: muchos estudiantes no tienen claridad sobre qué estudiar porque la orientación que reciben es muy general. Brújula Futura propone una experiencia breve, interactiva y útil para explorar el futuro.
+La hipotesis del proyecto: muchos estudiantes no tienen claridad sobre que estudiar porque la orientacion que reciben es muy general. Brujula Futura propone una experiencia breve, interactiva y util para explorar el futuro.
 
 ---
 
-## 👥 Integrantes y roles
+## Integrantes y roles
 
 | Nombre | Rol |
 |--------|-----|
@@ -28,44 +28,44 @@ La hipótesis del proyecto: muchos estudiantes no tienen claridad sobre qué est
 
 ---
 
-## 🛠️ Stack técnico
+## Stack tecnico
 
-| Capa | Tecnología |
+| Capa | Tecnologia |
 |------|-----------|
 | Frontend Web | React 19 + Vite 8 |
 | Estilos | Vanilla CSS (design system propio) |
 | App Android | Kotlin |
-| Diseño UI | Figma |
+| Diseno UI | Figma |
 | Repositorio | GitHub |
 | Deploy | Vercel |
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 g8-brujula-futura-puce-2025/
 ├── src/
 │   ├── App.jsx          # Componente principal con las 7 secciones del PMV
 │   ├── App.css          # Estilos de componentes y secciones
-│   ├── index.css        # Design system: tokens, tipografía, reset
+│   ├── index.css        # Design system: tokens, tipografia, reset
 │   └── main.jsx         # Punto de entrada de React
-├── docs/                # Documentación y capturas de pantalla
+├── docs/                # Documentacion y capturas de pantalla
 ├── tests/               # Pruebas
-├── public/              # Archivos estáticos
+├── public/              # Archivos estaticos
 ├── .env.example         # Variables de entorno de ejemplo
-├── vite.config.js       # Configuración de Vite
-└── README.md            # Documentación principal
+├── vite.config.js       # Configuracion de Vite
+└── README.md            # Documentacion principal
 ```
 
 ---
 
-## 🚀 Instalación y uso
+## Instalacion y uso
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/[org]/g8-brujula-futura-puce-2025.git
-cd g8-brujula-futura-puce-2025
+git clone https://github.com/floressemily/Br-jula-Futura.git
+cd Br-jula-Futura
 
 # 2. Instalar dependencias
 npm install
@@ -79,45 +79,45 @@ npm run dev
 
 ---
 
-## 🗺️ Flujo del PMV
+## Flujo del PMV
 
-El producto mínimo viable sigue este flujo de 7 pasos:
+El producto minimo viable sigue este flujo de 7 pasos:
 
-1. **Bienvenida** — Hero visual con propuesta de valor clara
-2. **Intereses visuales** — Chips interactivos para seleccionar áreas de interés
-3. **Vive una carrera** — Tarjetas inmersivas con descripción real de 3 carreras
-4. **Descubre carreras nuevas** — Opciones emergentes con etiquetas de demanda
-5. **Resultados / carreras afines** — Recomendaciones con % de compatibilidad
-6. **Universidades y opciones reales** — Instituciones ecuatorianas con datos concretos
-7. **Ruta final** — Resumen personalizado del proceso de exploración
-
----
-
-## 🌐 URL de deploy
-
-> Pendiente de configuración en Vercel.
+1. **Bienvenida** - Hero visual con propuesta de valor clara
+2. **Intereses visuales** - Chips interactivos para seleccionar areas de interes
+3. **Vive una carrera** - Tarjetas inmersivas con descripcion real de 3 carreras
+4. **Descubre carreras nuevas** - Opciones emergentes con etiquetas de demanda
+5. **Resultados / carreras afines** - Recomendaciones con porcentaje de compatibilidad
+6. **Universidades y opciones reales** - Instituciones ecuatorianas con datos concretos
+7. **Ruta final** - Resumen personalizado del proceso de exploracion
 
 ---
 
-## 🔑 Credenciales de prueba
+## URL de deploy
 
-No aplica por el momento. El MVP es de acceso abierto, sin autenticación.
+Pendiente de configuracion en Vercel.
 
 ---
 
-## ✅ Definition of Done
+## Credenciales de prueba
+
+No aplica por el momento. El MVP es de acceso abierto, sin autenticacion.
+
+---
+
+## Definition of Done
 
 Una funcionalidad se considera **terminada** cuando cumple todos estos criterios:
 
-- [ ] Está diseñada en Figma con aprobación del equipo
-- [ ] Está implementada en código y funciona correctamente
+- [ ] Esta disenada en Figma con aprobacion del equipo
+- [ ] Esta implementada en codigo y funciona correctamente
 - [ ] Ha sido probada manualmente en Chrome y mobile
-- [ ] El código fue revisado mediante Pull Request
+- [ ] El codigo fue revisado mediante Pull Request
 - [ ] Fue subida al repositorio en la rama correspondiente
-- [ ] Está desplegada y visible en la URL de producción
+- [ ] Esta desplegada y visible en la URL de produccion
 
 ---
 
-## 📄 Licencia
+## Licencia
 
-MIT © 2025 — Grupo 8, PUCE · Brújula Futura
+MIT 2025 - Grupo 8, PUCE - Brujula Futura
