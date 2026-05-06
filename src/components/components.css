@@ -122,3 +122,201 @@
 .footer-links a:hover{color:var(--violet-light);}
 .footer-sep{color:var(--text-muted);font-size:10px;}
 .footer-copy{font-size:12px;color:var(--text-muted);}
+
+/* ─── University Modal / Links ───────────────────── */
+.uni-card-clickable{
+  width:100%;
+  text-align:left;
+  font:inherit;
+  color:inherit;
+  cursor:pointer;
+}
+
+.uni-card-clickable:hover{
+  box-shadow:var(--shadow-glow);
+}
+
+.uni-more-hint{
+  display:block;
+  margin-top:16px;
+  font-size:12px;
+  font-weight:700;
+  color:var(--violet-light);
+  opacity:.85;
+}
+
+.uni-modal-overlay{
+  position:fixed;
+  inset:0;
+  z-index:999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+  background:rgba(0,0,0,.72);
+  backdrop-filter:blur(12px);
+}
+
+.uni-modal{
+  position:relative;
+  width:min(760px,100%);
+  max-height:88vh;
+  overflow-y:auto;
+  background:var(--bg-card);
+  border:1px solid var(--border);
+  border-radius:var(--r-xl);
+  box-shadow:var(--shadow-glow);
+}
+
+.uni-modal::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:4px;
+  background:var(--grad-brand);
+}
+
+.uni-modal-close{
+  position:absolute;
+  top:16px;
+  right:16px;
+  width:36px;
+  height:36px;
+  border:none;
+  border-radius:50%;
+  background:rgba(255,255,255,.08);
+  color:var(--text-primary);
+  font-size:24px;
+  line-height:1;
+  transition:all .2s;
+}
+
+.uni-modal-close:hover{
+  background:rgba(244,63,94,.2);
+  color:#fb7185;
+  transform:scale(1.05);
+}
+
+.uni-modal-header{
+  padding:36px 36px 20px;
+  background:var(--grad-card);
+  border-bottom:1px solid var(--border-subtle);
+}
+
+.uni-modal-badge{
+  display:inline-block;
+  margin-bottom:12px;
+  padding:5px 12px;
+  border-radius:var(--r-full);
+  background:rgba(16,185,129,.14);
+  border:1px solid rgba(16,185,129,.28);
+  color:var(--emerald);
+  font-size:12px;
+  font-weight:700;
+}
+
+.uni-modal-header h3{
+  font-size:34px;
+  margin-bottom:6px;
+}
+
+.uni-modal-header p{
+  font-size:14px;
+  color:var(--text-secondary);
+}
+
+.uni-modal-body{
+  padding:28px 36px 36px;
+}
+
+.uni-modal-summary{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
+  margin-bottom:24px;
+}
+
+.uni-modal-summary div{
+  padding:14px;
+  border-radius:var(--r-md);
+  background:rgba(255,255,255,.035);
+  border:1px solid var(--border-subtle);
+}
+
+.uni-modal-summary strong{
+  display:block;
+  margin-top:4px;
+  color:var(--text-primary);
+  font-size:14px;
+}
+
+.uni-modal-text{
+  margin-bottom:24px;
+  line-height:1.7;
+}
+
+.uni-modal-links h4{
+  margin-bottom:14px;
+  color:var(--violet-light);
+  font-size:16px;
+}
+
+.uni-official-link{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:16px;
+  padding:14px 16px;
+  margin-bottom:10px;
+  border-radius:var(--r-md);
+  background:rgba(124,58,237,.08);
+  border:1px solid rgba(124,58,237,.22);
+  color:var(--text-primary);
+  font-weight:600;
+  transition:all .2s;
+}
+
+.uni-official-link:hover{
+  transform:translateX(4px);
+  border-color:var(--violet);
+  background:rgba(124,58,237,.15);
+  color:var(--violet-light);
+}
+
+.uni-modal-note{
+  margin-top:20px;
+  padding:14px;
+  border-radius:var(--r-md);
+  background:rgba(245,158,11,.08);
+  border:1px solid rgba(245,158,11,.2);
+  color:var(--amber);
+  font-size:13px;
+}
+
+@media(max-width:650px){
+  .uni-modal-overlay{
+    padding:12px;
+    align-items:flex-end;
+  }
+
+  .uni-modal{
+    max-height:92vh;
+    border-radius:24px 24px 0 0;
+  }
+
+  .uni-modal-header,
+  .uni-modal-body{
+    padding-left:22px;
+    padding-right:22px;
+  }
+
+  .uni-modal-summary{
+    grid-template-columns:1fr;
+  }
+
+  .uni-modal-header h3{
+    font-size:28px;
+  }
+}
